@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Wenqing Tian"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Student at the School of Computer Science & Technology, Beijing Institute of Technology."
+  location         : "Beijing, China"
+  employer         : "Beijing Institute of Technology"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "is_wenqingtian@outlook.com"
 
   # Academic websites
   academia         : # URL
