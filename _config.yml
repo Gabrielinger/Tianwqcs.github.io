@@ -15,7 +15,7 @@ name                     : &name "Wenqing Tian"
 description              : &description "Personal academic homepage of Wenqing Tian, a student at Beijing Institute of Technology, showcasing research, education, and awards."
 url                      : https://academicpages.github.io # Please update this to: "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io" # Please update this to: "[your GitHub username]/[your repository name]"
+repository               : "Gabrielinger/Tianwqcs.github.io" # Please update this to: "[your GitHub username]/[your repository name]"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
