@@ -1,14 +1,15 @@
 permalink: /
-title: "{{Wenqing Tian - Personal Homepage}}"
-// ... existing code ...
+title: "Wenqing Tian - Personal Homepage"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
-{{ <!-- The entire content below this line, which was the original template's body, is replaced by the new content provided below. -->
 # Wenqing Tian (田文庆)
 
 **Email:** [is_wenqingtian@outlook.com](mailto:is_wenqingtian@outlook.com)  
 **Phone/WeChat:** 18223817388  
 **Date of Birth:** July 2004  
-**Political Affiliation:** Probationary Member of CPC
 
 ---
 
@@ -93,4 +94,3 @@ title: "{{Wenqing Tian - Personal Homepage}}"
 *   **"FLTRP·ETIC Cup" English Comprehensive Ability Competition, Beijing Division** (2024)
     *   *Award:* Third Prize
     *   *Level:* Provincial/Ministerial
-}}
