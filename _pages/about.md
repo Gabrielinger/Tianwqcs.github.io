@@ -6,12 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Wenqing Tian (田文庆)
+# Wenqing Tian
 
 **Email:** [is_wenqingtian@outlook.com](mailto:is_wenqingtian@outlook.com)  
-**Phone/WeChat:** 18223817388  
-**Date of Birth:** July 2004  
-
 ---
 
 ## Education
