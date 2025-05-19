@@ -1,49 +1,96 @@
----
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+title: "{{Wenqing Tian - Personal Homepage}}"
+// ... existing code ...
+---
+{{ <!-- The entire content below this line, which was the original template's body, is replaced by the new content provided below. -->
+# Wenqing Tian (田文庆)
+
+**Email:** [is_wenqingtian@outlook.com](mailto:is_wenqingtian@outlook.com)  
+**Phone/WeChat:** 18223817388  
+**Date of Birth:** July 2004  
+**Political Affiliation:** Probationary Member of CPC
+
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Education
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**Beijing Institute of Technology** | September 2022 – Present
+*School of Computer Science & Technology*
+*   **GPA Ranking (First Five Semesters):** No.1/117 (91.51/100)
+*   **Overall Ranking (First Five Semesters):** No.1/117
+*   **CET-6:** 561
+*   **Relevant Courses:** Programming Methodology and Practice (100), Operating Systems (99), Machine Learning Theory and Practice (99), Linear Algebra (99), Reinforcement Learning (98), Assembly Language and Interface Technology (97), Digital Logic (97), Object-Oriented Technology and Methods (97), Algorithmic Game Theory (97), Introduction to Natural Language Understanding (95), Fundamentals of Web Development (95), Special Topics in New Computer Technology (95), Data Structures and Algorithm Design (94), C Language Programming (94)
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Research Experience
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### Efficient Exploration for R1-Searcher Follow-up
+*   **Institution:** Renmin University of China
+*   **Date:** March 2024 – Present
+*   **Supervisor:** Prof. Xin Zhao ([AIBox RUC](http://aibox.ruc.edu.cn//))
+*   **Collaborators:** Huatong Song, Jinhao Jiang
+*   **Description:**
+    *   Existing models trained via reinforcement learning to autonomously call external search engines show a tendency to over-rely on these engines.
+    *   We are dedicated to developing models that can efficiently call external search engines while appropriately leveraging their internal knowledge to generate high-quality responses.
+    *   Participated in cold-start phase exploration, reward function design, and model rewriting training.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### Exploration of Attacks and Defenses for Retrieval-Augmented Generation (RAG) Systems
+*   **Institution:** Institute of Computing Technology, Chinese Academy of Sciences
+*   **Date:** December 2024 – February 2025
+*   **Supervisor:** Prof. Fei Sun ([Personal Page](https://ofey.me/))
+*   **Description:**
+    *   We are exploring mechanisms to efficiently defend against database poisoning attacks.
+    *   We are attempting to effectively utilize the internal knowledge of large language models in defense mechanisms.
 
-**Markdown generator**
+### Ancient Chinese Poetry Q&A System based on Retrieval-Augmented Generation (RAG)
+*   **Institution:** Beijing Institute of Technology
+*   **Date:** October 2024 – November 2024
+*   **Supervisor:** Prof. Yang Gao ([Faculty Page](https://cs.bit.edu.cn/szdw/jsml/bssds/78c31a2505434740a51076b614742941.htm))
+*   **Description:**
+    *   Responsible for implementing the Retrieval-Augmented Generation module, performing intent recognition for user queries, and dynamically invoking RAG:
+        *   For fact-based queries, invoke RAG to improve the accuracy of model responses;
+        *   For creative queries, invoke specific system prompts to maintain the creativity of model responses.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### Optimization of Approximate *Maximin Share* (MMS) for Indivisible Goods in Fair Division
+*   **Institution:** Beijing Institute of Technology
+*   **Date:** September 2024 – November 2024
+*   **Supervisor:** Prof. Zhengyang Liu ([Personal Page](https://lozycs.github.io/))
+*   **Description:**
+    *   We are simultaneously studying two approximation models: multiplicative approximation and ordinal approximation:
+        *   In multiplicative approximation, we aim to improve the lower bound of \(\alpha\) in \(\alpha\)-MMS by enhancing the bagging method;
+        *   In ordinal approximation, we aim to explore whether the upper bound of \(d\) in \(1\)-out-of-\(d\) MMS can be further constrained when all agent valuation functions are identical.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### Interference Fringe Parameter Estimation Based on Huawei Cloud
+*   **Institution:** Beijing Institute of Technology (Project Lead)
+*   **Date:** December 2023 – November 2024
+*   **Supervisor:** Prof. Mingfeng Lu ([Faculty Page](https://ice.bit.edu.cn/szdw/jsfc/06dde97d106c421cb87c62605b9d76a3.htm))
+*   **Description:**
+    *   Utilized deep learning techniques to analyze Newton's rings interference phenomena, achieving regression from a single interference fringe image to obtain parameters such as the coordinates of Newton's ring center and the lens's radius of curvature.
+    *   Improved the prediction accuracy of the two geometric parameters, ring center coordinates and radius of curvature, through measures such as task decoupling, feature sharing, independent optimization, and loss weight adjustment.
+    *   Implemented parameter estimation using PyTorch and MindSpore successively, and deployed on ModelArts, achieving separation of data acquisition and data processing.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+---
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Honors and Awards
+
+*   **2023 – 2024 Academic Year:** First-Class Academic Scholarship, Xiaomi Special Scholarship, University Outstanding Student Pacesetter, Department Model of Academic Excellence and Integrity
+*   **2022 – 2023 Academic Year:** First-Class Academic Scholarship, Xiaomi Scholarship, University Outstanding Student, University Outstanding League Member, University Outstanding Individual in Social Practice
+
+---
+
+## Competition Experience
+
+*   **National Collegiate Computer Artificial Intelligence Challenge** (2024)
+    *   *Award:* Third Prize
+    *   *Level:* Provincial/Ministerial
+*   **Mathematical Contest in Modeling** (2024)
+    *   *Award:* Third Prize
+    *   *Level:* National
+*   **The 5th Beijing Collegiate Physics Tournament** (2024)
+    *   *Award:* Second Prize
+    *   *Level:* Provincial/Ministerial
+*   **"FLTRP·ETIC Cup" English Comprehensive Ability Competition, Beijing Division** (2024)
+    *   *Award:* Third Prize
+    *   *Level:* Provincial/Ministerial
+}}
